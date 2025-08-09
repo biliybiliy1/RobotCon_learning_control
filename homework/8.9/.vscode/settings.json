@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "matrix_operation.h": "c",
+        "inttypes.h": "c",
+        "qsort.h": "c"
+    }
+}
