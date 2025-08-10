@@ -106,12 +106,15 @@ Matrix product(Matrix left, Matrix right)
     return result;
 }
 
-void free_matrix(Matrix matrix)
+void free_matrix(Matrix *matrix)
 {
-    for (int i = 0; i < matrix->row; i++)
+    for (int i = 0; i < (*matrix)->row; i++)
     {
-        free(matrix->data[i]);
+        free((*matrix)->data[i]);
+        (*matrix)->data[i] = NULL;
     }
-    free(matrix->data);
-    free(matrix);
+    free((*matrix)->data);
+    (*matrix)->data = NULL;
+    free(*matrix);
+    *matrix = NULL;
 }

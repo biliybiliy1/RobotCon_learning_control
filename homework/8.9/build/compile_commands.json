@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/workdirs/robotcon/workspace/homework/8.9/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\matrix_operation.dir\\E_\\workdirs\\robotcon\\workspace\\homework\\8.9\\matrix_operation\\src\\main.c.obj -c E:\\workdirs\\robotcon\\workspace\\homework\\8.9\\matrix_operation\\src\\main.c",
+  "file": "E:/workdirs/robotcon/workspace/homework/8.9/matrix_operation/src/main.c",
+  "output": "CMakeFiles/matrix_operation.dir/E_/workdirs/robotcon/workspace/homework/8.9/matrix_operation/src/main.c.obj"
+},
+{
+  "directory": "E:/workdirs/robotcon/workspace/homework/8.9/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\matrix_operation.dir\\E_\\workdirs\\robotcon\\workspace\\homework\\8.9\\matrix_operation\\src\\matrix_operation.c.obj -c E:\\workdirs\\robotcon\\workspace\\homework\\8.9\\matrix_operation\\src\\matrix_operation.c",
+  "file": "E:/workdirs/robotcon/workspace/homework/8.9/matrix_operation/src/matrix_operation.c",
+  "output": "CMakeFiles/matrix_operation.dir/E_/workdirs/robotcon/workspace/homework/8.9/matrix_operation/src/matrix_operation.c.obj"
+}
+]

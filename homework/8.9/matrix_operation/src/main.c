@@ -20,7 +20,7 @@ int main(void)
     printf("result is : \n");
     print_matrix(result);
 
-    free(matrix);
-    free(trans_matrix);
-    free(result);
+    free_matrix(&matrix);
+    free_matrix(&trans_matrix);
+    free_matrix(&result);
 }

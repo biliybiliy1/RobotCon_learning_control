@@ -3,5 +3,6 @@
         "matrix_operation.h": "c",
         "inttypes.h": "c",
         "qsort.h": "c"
-    }
+    },
+    "cmake.sourceDirectory": "E:/workdirs/robotcon/workspace/homework/8.9/matrix_operation/build"
 }

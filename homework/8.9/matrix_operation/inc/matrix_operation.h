@@ -18,4 +18,4 @@ void assign_matrix(Matrix matrix);
 void print_matrix(Matrix matrix);
 Matrix transposed(Matrix matrix);
 Matrix product(Matrix left, Matrix right);
-void free_matrix(Matrix matrix);
+void free_matrix(Matrix *matrix);
